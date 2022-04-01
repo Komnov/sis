@@ -1,0 +1,95 @@
+@import url("../../../css/mform.css");
+
+.exform_wrapper.request {width:460px; font:20px 'Roboto Condensed', sans-serif; color:#000; background:#fff; border:none; padding:36px 8px 0; border-radius:0;}
+
+.exform_wrapper.request .exform_header {text-align:center; padding:5px 0; margin:5px; color: #3d51c8; text-transform:uppercase;}
+.exform_wrapper.request .exform_addmsg {text-align:center; font-size:12px; margin:0px 0 0;}
+
+.exform_wrapper.request input[type="text"]:focus, .exform_wrapper.request textarea:focus {background:#ffd;}
+.exform_wrapper.request .inpt_wrpr {margin:0; padding:20px;}
+.exform_wrapper.request input[type="text"], 
+.exform_wrapper.request textarea {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #222831;
+  margin-bottom: 20px;
+  padding: 15px 0 15px 20px;
+  background-color: transparent;
+  border: 1px solid #00adb5;
+  width: 100%;
+  }
+.exform_wrapper.request textarea{resize:none; font-family: Arial; color: #222831; margin: 0 0;}
+
+.exform_wrapper.request div.err {height:0; float:right; position:relative; left:0; top:11px;}
+
+.exform_wrapper.request .mf_submit {text-align:center; margin-top:7px;}
+.exform_wrapper.request .mf_submit .send_btn{
+    color: #eeeeee;
+    display: inline-block;
+    background-color: #00adb5;
+    position: relative;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 80px 14px 80px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+.exform_wrapper.request .exf_captcha input[type="text"], .exform_wrapper.request .captcha_img {float:left;}
+.exform_wrapper.request .exf_captcha input[type="text"] {width:130px;}
+.exform_wrapper.request .captcha_img {width:160px; height:34px; margin:2px 0 0 4px;} 
+#mf_captcha_request {width:160px; border:solid 1px #ccc;}
+.exform_wrapper.request .exf_captcha a {display:block; width:32px; height:32px; float:right; margin:4px -10px 0 0; background:url(refresh.png);}
+
+.exform_wrapper.request.finmsg {width:400px; min-height:50px; padding:10px; position:absolute; left:50%; top:50%; margin:-60px 0 0 -200px;}
+.exform_wrapper.request.finmsg p{text-align:center;}
+
+.close_btn_req {
+	width: 20px!important;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: url('/exform/imgs/exit.png') no-repeat;
+	background-size: 100%;
+	border: none;
+	cursor: pointer;
+}
+
+.close_btn_req:focus { outline: none; }
+
+.lab{
+	font-size:13px;
+}
+
+.exform_wrapper.request .exform_header {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0px 0 0px 0;
+  padding: 0 0;
+  text-transform: uppercase;
+  color: #222831;
+}
+.exform_wrapper.request .exform_header:after {
+  content: '';
+  background-image: url(/assets/images/objects/line.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 25px;
+  display: block;
+  position: relative;
+  top: -2px;
+}
+
+.exform_wrapper.request textarea::placeholder,
+.exform_wrapper.request input::placeholder {
+  color: #4e4e4e;
+}

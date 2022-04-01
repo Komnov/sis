@@ -1,0 +1,5 @@
+<Files log.txt>
+Order Deny,Allow
+Deny from all
+Allow from Ваш IP адрес 
+</Files>
